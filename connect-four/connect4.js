@@ -144,7 +144,7 @@ function checkForWin() {
   }
 
   // checks entire board to see if there are 4 in a row of the same color
-  // along horiz, vert, diagonal
+  // along horizontal, vertical, diagonal
   for (let y = 0; y < HEIGHT; y++) {
     for (let x = 0; x < WIDTH; x++) {
       const horiz = [[y, x], [y, x + 1], [y, x + 2], [y, x + 3]];
